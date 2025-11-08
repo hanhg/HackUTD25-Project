@@ -4,6 +4,8 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { ArrowRight, Sparkles, Code2, Zap } from "lucide-react"
+import { Variants } from "framer-motion";
+
 
 export function LandingPage() {
   const containerVariants = {
@@ -17,7 +19,7 @@ export function LandingPage() {
     },
   }
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,

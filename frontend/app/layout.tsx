@@ -11,7 +11,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Modern App Template",
+  title: "Hackathon Starter 67",
   description: "A beautiful, hackathon-ready web app template",
   generator: "v0.app",
   icons: {
