@@ -32,12 +32,12 @@ export function Navbar() {
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center text-primary-foreground">
                 ◆
               </div>
-              <span>Template</span>
+              <span>HackUTD25 Template</span>
             </Link>
           </motion.div>
 
           {/* Nav Items */}
-          <div className="hidden md:flex items-center gap-1">
+          <div className="absolute w-full md:flex items-center gap-1 hidden justify-center">
             {navItems.map((item) => {
               const isActive = pathname === item.href
               return (
